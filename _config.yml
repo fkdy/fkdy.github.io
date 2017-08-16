@@ -1,10 +1,11 @@
-# Site settings
-title: Mei Chunsheng
-tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+title: Research
+url: "https://fkdy.github.io"
+baseurl: ""
 
-# Build settings
 markdown: kramdown
-exclude: ["README.md"]
+
+tracking_id: #
+
 sass:
-  style: compressed
+    style: compressed
+    sass_dir: _sass
