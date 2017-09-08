@@ -1,32 +1,35 @@
-# Scribble
+# Researcher
 
-A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
+### [Demo Website](http://ankitsultana.com/researcher)
 
-![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
+A clean, single column, monospace resume template built for jekyll
 
-## Get started
+### Installation
 
-1. [Fork the repository](https://github.com/muan/scribble/fork)
+Simply fork the repository and edit away.
 
-2. Clone the repository: `git clone https://github.com/username/scribble`
+### Customization
 
-3. Run `bundle install`
+* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
 
-4. Run Jekyll: `bundle exec jekyll serve -w`
+* You can of course remove `contact.md` if you don't want it
 
-5. Go to http://localhost:4000 for your site.
+* To set the heading, edit the `title` variable in `_config.yml`
 
----
+* To edit the `links` mentioned on the navigation bar, edit the file `_data/nav.yml`
 
-## Make it yours
+* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
 
-1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
+* You can setup google analytics, by setting `tracking_id` in `_config.yml`
 
-2. Change `about.md` for blog intro
+* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
 
-3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
+```html
+<img class="profile-picture" src="sherlock.jpg">
+```
 
-## The end
+**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
 
-Like it? [Tell me](http://twitter.com/muanchiou).<br/>
-Problem? [Use GitHub Issues](https://github.com/muan/scribble).
+### License
+
+[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
