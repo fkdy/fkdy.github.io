@@ -1,35 +1,32 @@
-# Researcher
+# Scribble
 
-### [Demo Website](http://ankitsultana.com/researcher)
+A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
 
-A clean, single column, monospace resume template built for jekyll
+![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
 
-### Installation
+## Get started
 
-Simply fork the repository and edit away.
+1. [Fork the repository](https://github.com/muan/scribble/fork)
 
-### Customization
+2. Clone the repository: `git clone https://github.com/username/scribble`
 
-* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
+3. Run `bundle install`
 
-* You can of course remove `contact.md` if you don't want it
+4. Run Jekyll: `bundle exec jekyll serve -w`
 
-* To set the heading, edit the `title` variable in `_config.yml`
+5. Go to http://localhost:4000 for your site.
 
-* To edit the `links` mentioned on the navigation bar, edit the file `_data/nav.yml`
+---
 
-* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+## Make it yours
 
-* You can setup google analytics, by setting `tracking_id` in `_config.yml`
+1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
 
-* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
+2. Change `about.md` for blog intro
 
-```html
-<img class="profile-picture" src="sherlock.jpg">
-```
+3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
 
-**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+## The end
 
-### License
-
-[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+Like it? [Tell me](http://twitter.com/muanchiou).<br/>
+Problem? [Use GitHub Issues](https://github.com/muan/scribble).
