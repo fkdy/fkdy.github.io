@@ -55,7 +55,7 @@ First Class Students Award at NWPU (Top 10%), 2012-2014
   Email: [liuzhenyu73@tsinghua.edu.cn](mailto:liuzhenyu73@tsinghua.edu.cn)
 
 * Xiangyang Ji:  
-  Department of Automation, Tsinghua University  
+  Associate Professor, Department of Automation, Tsinghua University  
   Email: [xyji@tsinghua.edu.cn](mailto:xyji@tsinghua.edu.cn)
 
 [comment]:# 
