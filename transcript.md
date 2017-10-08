@@ -3,6 +3,8 @@ layout: default
 is_contact: true
 ---
 
+## graduate courses
+
 |course name                                                       |credit | score |
 |------------------------------------------------------------------|:-----:|:-----:|
 |Modern Network Analysis                                           |2      |83     |
@@ -17,4 +19,10 @@ is_contact: true
 |Modern Electronic Technology                                      |2      |86     |
 |Intelligent information processing and fusion technique           |2      |89     |
 |Advanced Experiment on Electronic Technology                      |2      |89     |
-|average                                                           |--     |90     |
+|average                                                           |--     |88     |
+
+[comment]:# ## undergraduate courses
+[comment]:# 
+[comment]:# |course name                                                       |credit | score |
+[comment]:# |------------------------------------------------------------------|:-----:|:-----:|
+[comment]:# |Basis of Computer Engineering
